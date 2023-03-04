@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test thread-count="2" parallel="tests" name="Testrunner1">
+  <classes>
+	  <class name="Campaign.CreateCampaginTest"></class>
+	  <class name="Campaign.CreateCampaignProductTest"></class>
+  </classes>
+  </test> <!-- Test -->
+  <test name="testrunner2">
+	  <classes>
+		  
+		 <class name="Organization.CreateOrganizationTc2"></class> 
+		  
+	  </classes>
+	  
+  </test>
+</suite> <!-- Suite -->
